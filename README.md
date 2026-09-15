@@ -6,7 +6,7 @@ Redesign și reconstrucție completă de la zero a platformei [eurosafetyinvest.
 
 ---
 
-## 🚀 Tehnologii & Arhitectură
+## Tehnologii & Arhitectură
 
 - **Framework**: [Next.js 16 (App Router)](https://nextjs.org/) cu React 19 & TypeScript în Strict Mode
 - **Stilizare**: [Tailwind CSS 4](https://tailwindcss.com/) cu paletă industrială customizată (Navy, Safety Amber/Orange, Slate)
@@ -18,7 +18,7 @@ Redesign și reconstrucție completă de la zero a platformei [eurosafetyinvest.
 
 ---
 
-## 📦 Structura Proiectului
+## Structura Proiectului
 
 ```
 eurosafetyinvest/
@@ -55,7 +55,7 @@ eurosafetyinvest/
 
 ---
 
-## 🛠️ Instalare & Rulare Locală
+## Instalare & Rulare Locală
 
 ### 1. Clonare repozitoriu
 ```bash
@@ -82,7 +82,7 @@ npm run start
 
 ---
 
-## 🛡️ Caracteristici Cheie
+## Caracteristici Cheie
 
 1. **Zero Înregistrare Cumpărător**:
    - Companiile adaugă produse în lista de ofertă, specifică mărimi, culori și cantități, introduc datele firmei (Nume, CUI, contact) și transmit cererea într-un singur pas.
@@ -98,7 +98,7 @@ npm run start
 
 ---
 
-## 📍 Date de Contact EURO SAFETY INVEST SRL
+## Date de Contact EURO SAFETY INVEST SRL
 
 - **Adresă**: Str. Călărași nr. 14, Constanța, România
 - **Telefon**: 0720 300 211 / 0743 108 883
