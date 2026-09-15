@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@theme {
+  --color-industrial-black: #111416;
+  --color-industrial-graphite: #1B2024;
+  --color-industrial-surface: #171B1F;
+  --color-industrial-card: #20262B;
+  --color-warm-stage: #F6F5F1;
+  --color-tech-grey: #E7E8E5;
+  --color-tech-border: #D7DAD8;
+  --color-muted-grey: #687177;
+  --color-safety-orange: #F26A21;
+  --color-safety-orange-hover: #D85612;
+  --color-signal-yellow: #E9CF38;
+
+  --font-sans: var(--font-geist-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+:root {
+  --background: #FFFFFF;
+  --foreground: #111416;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom technical micro-details */
+.tech-grid {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, rgba(0, 0, 0, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.04) 1px, transparent 1px);
+}
+
+.tech-grid-dark {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F1F1;
+}
+::-webkit-scrollbar-thumb {
+  background: #C4C7C5;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #999E9D;
+}

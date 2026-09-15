@@ -1,0 +1,70 @@
+[
+  {
+    "id": "ESI-2609-5098",
+    "referenceNumber": "ESI-2609-5098",
+    "companyName": "SC Alfa SRL",
+    "cui": "RO35201232",
+    "contactName": "Sorin S",
+    "phone": "0723123123",
+    "email": "sorins@s.com",
+    "city": "Constanta",
+    "county": "Bucuresti",
+    "notes": "",
+    "wantCustomization": true,
+    "customizationNotes": "Sigla pe casca",
+    "items": [
+      {
+        "id": "esi-casti-112-a1",
+        "name": "Cască de protecție Casca Adamello",
+        "code": "112-A1",
+        "quantity": 1,
+        "selectedColor": "Albastru",
+        "image": "/poze/casti/Casca-Adamello.jpg"
+      }
+    ],
+    "createdAt": "2026-09-15T12:09:52.030Z",
+    "status": "in_lucru"
+  },
+  {
+    "id": "ESI-2609-1082",
+    "referenceNumber": "ESI-2609-1082",
+    "createdAt": "2026-09-14T20:21:32.645Z",
+    "status": "in_lucru",
+    "companyName": "S.C. Maritime Logistics Services SRL",
+    "cui": "RO32918274",
+    "contactName": "Ing. Cristian Popescu",
+    "phone": "0722 554 433",
+    "email": "achizitii@maritimelogistics.ro",
+    "city": "Constanța",
+    "county": "Constanța",
+    "notes": "Livrare la Poarta 6 a Portului Constanța. Solicităm fișe tehnice și certificate de conformitate CE pentru fiecare articol.",
+    "wantCustomization": true,
+    "customizationNotes": "Serigrafie logo companie pe spatele jachetelor (dimensiune 25x10 cm, 2 culori) și broderie pe piept stânga.",
+    "items": [
+      {
+        "id": "esi-casca-de-protectie-produs-fabricat-in-italia",
+        "name": "Cască de protecție Guamo",
+        "code": "111-1-G1",
+        "quantity": 25,
+        "selectedColor": "Alb",
+        "image": "/poze/casti/guamo.jpg"
+      },
+      {
+        "id": "esi-331-1",
+        "name": "Mănuși Nitex",
+        "code": "331-1",
+        "quantity": 100,
+        "selectedSize": "10 (XL)",
+        "image": "/poze/manusi cauciuc/Nitex.jpg"
+      },
+      {
+        "id": "esi-bari-s1",
+        "name": "Pantofi Bari S1",
+        "code": "BARI S1",
+        "quantity": 20,
+        "selectedSize": "43",
+        "image": "/poze/pantofi/bari.jpg"
+      }
+    ]
+  }
+]
