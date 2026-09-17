@@ -6,6 +6,42 @@ Redesign și reconstrucție completă de la zero a platformei [eurosafetyinvest.
 
 ---
 
+## 📸 Previzualizare Platformă (Live Previews)
+
+### 1. Pagina Principală (Hero, Echipamente de Vârf & Avantaje)
+*Design industrial curat, paletă vizuală high-contrast (Dark Navy / Safety Orange) și navigare rapidă către catalog:*
+![Homepage Hero & Echipamente](docs/screenshots/01_homepage.png)
+
+---
+
+### 2. Catalogul General & Explorare 210 Produse
+*Navigare multi-categorie, coduri de produs, filtre tehnice și acces instant la subcategorii:*
+![Catalog General Produse](docs/screenshots/02_catalog.png)
+
+---
+
+### 3. Pagină Detaliu Produs (Fișă Tehnică, Mărimi & Selector Culori)
+*Standarde europene (EN 397, EN 388, EN ISO 20345), coduri oficiale, mostre de culori și adăugare directă la oferta B2B:*
+![Pagină Detaliu Produs](docs/screenshots/03_product_detail.png)
+
+---
+
+### 4. Flux B2B Ofertare & Panou Intern de Administrare (`/admin`)
+
+| Formular Solicitare Ofertă (Fără Înregistrare / Fără Parole) | Panou Intern Gestiune Oferte & Mesaje (`/admin`) |
+| :---: | :---: |
+| ![Formular Solicită Ofertă](docs/screenshots/04_quote_request.png) | ![Dashboard Admin Oferte](docs/screenshots/05_admin_dashboard.png) |
+
+---
+
+### 5. Servicii de Personalizare & Optimizare Avansată pentru Mobile
+
+| Atelier Personalizare (Serigrafie, Broderie, Transfer) | Navigare Mobilă Compactă (Grid 2 Coloane & Bottom Bar) |
+| :---: | :---: |
+| ![Servicii Personalizare EIP](docs/screenshots/06_personalizare.png) | ![Optimizare Mobile](docs/screenshots/07_mobile_preview.png) |
+
+---
+
 ## Tehnologii & Arhitectură
 
 - **Framework**: [Next.js 16 (App Router)](https://nextjs.org/) cu React 19 & TypeScript în Strict Mode
@@ -25,6 +61,15 @@ eurosafetyinvest/
 ├── data/                    # Persistență locală pentru oferte și contacte
 │   ├── contacts.json
 │   └── quotes.json
+├── docs/                    # Previzualizări și capturi ecran pentru GitHub
+│   └── screenshots/
+│       ├── 01_homepage.png
+│       ├── 02_catalog.png
+│       ├── 03_product_detail.png
+│       ├── 04_quote_request.png
+│       ├── 05_admin_dashboard.png
+│       ├── 06_personalizare.png
+│       └── 07_mobile_preview.png
 ├── public/                  # Imagini produse, logo-uri clienți și asset-uri statice
 │   ├── images/
 │   │   └── clients/         # Logo-uri oficiale autentice (Dacia, Rompetrol, Portul Constanța etc.)
